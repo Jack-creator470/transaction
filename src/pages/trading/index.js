@@ -7,6 +7,7 @@ import Box from '@mui/material/Box';
 import Paper from '@mui/material/Paper';
 import Grid from '@mui/material/Grid';
 import AccountManagement from './account/AccountManagement';
+import ModalExample from '../../components/modalButton';
 const Item = styled(Paper)(({ theme }) => ({
     backgroundColor: theme.palette.mode === 'dark' ? '#1A2027' : '#101013',
     ...theme.typography.body2,
@@ -33,6 +34,7 @@ const Trading = () => {
                             </Item>
                             <Box sx={{ p: 1 }}></Box>
                             <Item>
+                            <ModalExample />
                             </Item>
                         </Grid>
                     </Grid>
@@ -43,6 +45,8 @@ const Trading = () => {
                 >
                     <AccountManagement />
                 </Box>
+                
+
             </div>
         </div>
     )

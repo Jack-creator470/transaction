@@ -12,7 +12,7 @@ const Header = () => {
         </a>
 
         <div className="d-flex align-items-center default_header">
-          <ul id="menu-main-menu" className="primary-menu">
+          {/* <ul id="menu-main-menu" className="primary-menu">
             <li className="menu-item menu-item-has-children">
               <a href="/trading">Trading<i className="fa fa-angle-down menu-parent-arrows"></i></a>
               
@@ -32,8 +32,8 @@ const Header = () => {
                 <li className="menu-item"><a href="/request-a-call-back/">Request a Call Back</a></li>
                 <li className="menu-item"><a href="/faq-central/">Support</a></li>
               </ul> */}
-            </li>
-          </ul>
+            {/* </li>
+          </ul> */} 
 
          
 
